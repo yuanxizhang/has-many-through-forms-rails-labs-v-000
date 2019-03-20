@@ -1,1 +1,10 @@
-
+<h2>Hello! <%= @user.username %></h2>
+<p>
+  Email: <%= @user.email %>
+</p>
+Posts that you have commented on:
+  <% @user.comments.each do |comment| %>  
+    <%= comment.content %><br>
+    on post: <%= link_to comment.post.title, post_path(comment.post) %>
+  <% end %>
+<br>
