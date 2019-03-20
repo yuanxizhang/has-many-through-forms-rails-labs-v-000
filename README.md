@@ -1,4 +1,4 @@
-# Has Many Through Forms Rails Labs
+learn# Has Many Through Forms Rails Labs
 
 ## Overview
 
